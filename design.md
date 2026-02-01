@@ -38,9 +38,9 @@ Insight Generation → Dashboard Visualization → Optimization Recommendations
 ├─────────────────────────────────────────┤
 │ • Content Upload Interface              │
 │ • Analytics Dashboard                   │
-│ • Optimization Recommendations         │
+│ • Optimization Recommendations          │
 │ • User Management                       │
-│ • Real-time Notifications              │
+│ • Real-time Notifications               │
 └─────────────────────────────────────────┘
 ```
 
@@ -59,7 +59,7 @@ Insight Generation → Dashboard Visualization → Optimization Recommendations
 │ • Quick Content Upload                  │
 │ • Essential Insights View               │
 │ • Push Notifications                    │
-│ • Offline Content Drafting             │
+│ • Offline Content Drafting              │
 │ • Camera Integration                    │
 └─────────────────────────────────────────┘
 ```
@@ -180,7 +180,7 @@ Insight Generation → Dashboard Visualization → Optimization Recommendations
 #### Primary Database (PostgreSQL)
 ```
 ┌─────────────────────────────────────────┐
-│            PostgreSQL Cluster          │
+│            PostgreSQL Cluster           │
 ├─────────────────────────────────────────┤
 │ • User profiles and authentication      │
 │ • Content metadata and relationships    │
@@ -196,7 +196,7 @@ Insight Generation → Dashboard Visualization → Optimization Recommendations
 │          Object Storage (S3)            │
 ├─────────────────────────────────────────┤
 │ • Original content files                │
-│ • Processed media assets               │
+│ • Processed media assets                │
 │ • Generated thumbnails                  │
 │ • AI model artifacts                    │
 │ • Backup and archival data              │
@@ -298,15 +298,15 @@ Insight Generation → Dashboard Visualization → Optimization Recommendations
 │       │            │            │       │
 │       └────────────┼────────────┘       │
 │                    │                    │
-│            ┌─────────────┐               │
-│            │   Fusion    │               │
-│            │   Layer     │               │
-│            └─────────────┘               │
+│            ┌─────────────┐              │
+│            │   Fusion    │              │
+│            │   Layer     │              │
+│            └─────────────┘              │
 │                    │                    │
-│            ┌─────────────┐               │
-│            │ Prediction  │               │
-│            │   Heads     │               │
-│            └─────────────┘               │
+│            ┌─────────────┐              │
+│            │ Prediction  │              │
+│            │   Heads     │              │
+│            └─────────────┘              │
 └─────────────────────────────────────────┘
 ```
 
@@ -574,7 +574,7 @@ POST /webhooks/performance/{platform}
 #### Multi-Factor Authentication (MFA)
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│   Login     │───▶│   Primary   │───▶│     MFA     │
+│   Login     │───▶│   Primary   │───▶│     MFA    │
 │ Credentials │    │    Auth     │    │Verification │
 └─────────────┘    └─────────────┘    └─────────────┘
                                               │
@@ -698,15 +698,15 @@ Upload → Virus Scan → Content Filter → AI Safety Check → Storage
 │                                         │
 │  ┌─────────┐  ┌─────────┐  ┌─────────┐  │
 │  │US-East-1│  │EU-West-1│  │AP-South │  │
-│  │(Primary)│  │(Secondary)│ │(Tertiary)│ │
+│  │Primary  │  │Secondary│  | Tertiary│  │
 │  └─────────┘  └─────────┘  └─────────┘  │
 │       │            │            │       │
 │       └────────────┼────────────┘       │
 │                    │                    │
-│            ┌─────────────┐               │
-│            │   Global    │               │
-│            │Load Balancer│               │
-│            └─────────────┘               │
+│            ┌─────────────┐              │
+│            │   Global    │              │
+│            │Load Balancer│              │
+│            └─────────────┘              │
 └─────────────────────────────────────────┘
 ```
 
@@ -733,10 +733,10 @@ Upload → Virus Scan → Content Filter → AI Safety Check → Storage
 │  └─────────┘  └─────────┘  └─────────┘  │
 │                                         │
 │  Scaling Triggers:                      │
-│  • CPU > 70% for 5 minutes             │
-│  • Memory > 80% for 3 minutes          │
-│  • Queue depth > 100 messages          │
-│  • Response time > 2 seconds           │
+│  • CPU > 70% for 5 minutes              │
+│  • Memory > 80% for 3 minutes           │
+│  • Queue depth > 100 messages           │
+│  • Response time > 2 seconds            │
 └─────────────────────────────────────────┘
 ```
 
@@ -761,7 +761,7 @@ Upload → Virus Scan → Content Filter → AI Safety Check → Storage
 │  └─────────┘  └─────────┘  └─────────┘  │
 │                                         │
 │  Cache Policies:                        │
-│  • Static assets: 1 year               │
+│  • Static assets: 1 year                │
 │  • API responses: 5 minutes             │
 │  • User data: 1 hour                    │
 │  • Analytics: 15 minutes                │
@@ -820,5 +820,6 @@ Upload → Virus Scan → Content Filter → AI Safety Check → Storage
 - **Health Checks**: Automated health monitoring with recovery
 
 ---
+
 
 This design document provides a comprehensive foundation for building CreatorLens as a scalable, AI-powered content optimization platform. The architecture supports the hackathon prototype requirements while providing a clear path for production scaling and enterprise features.
