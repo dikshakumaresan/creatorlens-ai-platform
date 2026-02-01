@@ -22,7 +22,7 @@ CreatorLens
 - design.md – System architecture, AI pipelines, APIs & cloud design
 - 
 # 🎯Goal
-Help creators make smarter content decisions and increase engagement using AI — before publishing.
+Help creators make smarter content decisions and increase engagement using AI before publishing.
 
 
 
