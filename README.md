@@ -15,7 +15,7 @@ CreatorLens is an AI-powered platform that helps content creators predict and op
 CreatorLens
 ├── README.md
 ├── requirements.md
-├──design.md
+├── design.md
 
 # 📄Documentation
 - requirements.md – Project goals, user roles, functional & non-functional requirements  
