@@ -20,7 +20,7 @@ CreatorLens
 # 📄Documentation
 - requirements.md – Project goals, user roles, functional & non-functional requirements  
 - design.md – System architecture, AI pipelines, APIs & cloud design
-- 
+  
 # 🎯Goal
 Help creators make smarter content decisions and increase engagement using AI before publishing.
 
